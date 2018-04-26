@@ -1,0 +1,42 @@
+Package: factorbox
+Type: Package
+Title: Toolbox for multiblock factorization
+Version: 0.1.0
+Date: 2013-10-11
+Author: Gaston Sanchez, Mohamed Hanafi
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: Prototype package for manipulating multiblocks
+    This is just a draft version
+Depends:
+    R (>= 3.0.0),
+    methods,
+    tester,
+    turner,
+    matrixkit
+Suggests:
+    knitr,
+    testthat (>= 0.3)
+VignetteBuilder: knitr
+License: GPL-3
+LazyLoad: yes
+Collate:
+    'auxiliar-functions.r'
+    'blockdiag.r'
+    'blockdimension-class.r'
+    'blockmatrix-class.r'
+    'blockmatrix-methods.r'
+    'blockvector-class.r'
+    'blockvector-methods.r'
+    'deflate.r'
+    'factorbox-package.r'
+    'generic-blockdim.r'
+    'generic-describe.r'
+    'generic-separate.r'
+    'get_block.r'
+    'get_dimnames.r'
+    'maxbet-procedure.r'
+    'product-had-had.r'
+    'product-had-mat.r'
+    'product-mat-mat.r'
+    'product-outer.r'
+    'singular_values.r'
